@@ -7,8 +7,9 @@
 ## Master Scorecard
 
 | Platform | Domain | Problem | Time Complexity | Space Complexity | Core Concept |
-|---|---|---|---|---|---|
-| — | — | — | — | — | — |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| HackerRank | C++ Systems Architecture | [Attribute Parser](hackerrank/cpp-systems-architecture/attribute-parser/) | $\mathcal{O}(N \cdot L + Q)$ | $\mathcal{O}(N \cdot A)$ | Stack-based path scope serialization and $\mathcal{O}(1)$ map lookup |
+| HackerRank | Data Structures & Buffers | [Jesse and Cookies](hackerrank/data-structures-and-buffers/jesse-and-cookies/) | $\mathcal{O}(N \log N)$ | $\mathcal{O}(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
 
 ---
 
