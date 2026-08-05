@@ -8,10 +8,10 @@
 
 | Platform | Domain | Problem | Time Complexity | Space Complexity | Core Concept |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| HackerRank | C++ Systems Architecture | [Attribute Parser](hackerrank/cpp-systems-architecture/attribute-parser/) | $\mathcal{O}(N \cdot L + Q)$ | $\mathcal{O}(N \cdot A)$ | Stack-based path scope serialization and $\mathcal{O}(1)$ map lookup |
-| HackerRank | Data Structures & Buffers | [Jesse and Cookies](hackerrank/data-structures-and-buffers/jesse-and-cookies/) | $\mathcal{O}(N \log N)$ | $\mathcal{O}(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
-| HackerRank | Data Structures & Buffers | [Largest Rectangle](hackerrank/data-structures-and-buffers/largest-rectangle/) | $\mathcal{O}(N)$ | $\mathcal{O}(N)$ | Amortized $\mathcal{O}(N)$ monotonic stack boundary traversal |
-| HackerRank | Bit Manipulation & Hardware | [Sum vs XOR](hackerrank/bit-manipulation-hardware/sum-vs-xor/) | $\mathcal{O}(\log_2 n)$ | $\mathcal{O}(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and $2^{\text{unset\_bits}}$ shift optimization |
+| HackerRank | C++ Systems Architecture | [Attribute Parser](hackerrank/cpp-systems-architecture/attribute-parser/) | $O(N \cdot L + Q)$ | $O(N \cdot A)$ | Stack-based path scope serialization and $O(1)$ map lookup |
+| HackerRank | Data Structures & Buffers | [Jesse and Cookies](hackerrank/data-structures-and-buffers/jesse-and-cookies/) | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
+| HackerRank | Data Structures & Buffers | [Largest Rectangle](hackerrank/data-structures-and-buffers/largest-rectangle/) | $O(N)$ | $O(N)$ | Amortized $O(N)$ monotonic stack boundary traversal |
+| HackerRank | Bit Manipulation & Hardware | [Sum vs XOR](hackerrank/bit-manipulation-hardware/sum-vs-xor/) | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
 
 ---
 
