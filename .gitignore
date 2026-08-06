@@ -1,0 +1,12 @@
+# Visual Studio Code project metadata & debug configurations
+.vscode/
+*.code-workspace
+
+# OS / Build artifacts
+.DS_Store
+Thumbs.db
+build/
+bin/
+*.exe
+*.o
+*.out
