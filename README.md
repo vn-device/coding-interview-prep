@@ -12,6 +12,7 @@
 | HackerRank | Data Structures & Buffers | [Jesse and Cookies](hackerrank/data-structures-and-buffers/jesse-and-cookies/) | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
 | HackerRank | Data Structures & Buffers | [Largest Rectangle](hackerrank/data-structures-and-buffers/largest-rectangle/) | $O(N)$ | $O(N)$ | Amortized $O(N)$ monotonic stack boundary traversal |
 | HackerRank | Bit Manipulation & Hardware | [Sum vs XOR](hackerrank/bit-manipulation-hardware/sum-vs-xor/) | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
+| LeetCode | Algorithms | [Subarray Sum Equals K](leetcode/algorithms/subarray-sum-equals-k/) | $O(N)$ | $O(N)$ | Cumulative prefix sum identity and `std::unordered_map` frequency tracking |
 
 ---
 
