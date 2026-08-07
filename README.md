@@ -14,6 +14,7 @@
 | HackerRank | Bit Manipulation & Hardware | [Sum vs XOR](hackerrank/bit-manipulation-hardware/sum-vs-xor/) | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
 | LeetCode | Algorithms | [Subarray Sum Equals K](leetcode/algorithms/subarray-sum-equals-k/) | $O(N)$ | $O(N)$ | Cumulative prefix sum identity and `std::unordered_map` frequency tracking |
 | LeetCode | Algorithms | [Maximum Subarray](leetcode/algorithms/maximum-subarray/) | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
+| LeetCode | Algorithms | [Minimum Size Subarray Sum](leetcode/algorithms/minimum-size-subarray-sum/) | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
 
 ---
 
