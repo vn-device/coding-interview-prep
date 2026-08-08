@@ -15,6 +15,7 @@
 | LeetCode | Algorithms | [Subarray Sum Equals K](leetcode/algorithms/subarray-sum-equals-k/) | $O(N)$ | $O(N)$ | Cumulative prefix sum identity and `std::unordered_map` frequency tracking |
 | LeetCode | Algorithms | [Maximum Subarray](leetcode/algorithms/maximum-subarray/) | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
 | LeetCode | Algorithms | [Minimum Size Subarray Sum](leetcode/algorithms/minimum-size-subarray-sum/) | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
+| LeetCode | Algorithms | [Longest Substring Without Repeating Characters](leetcode/algorithms/longest-substring-without-repeating-characters/) | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
 
 ---
 
