@@ -16,6 +16,7 @@
 | LeetCode | Algorithms | [Maximum Subarray](leetcode/algorithms/maximum-subarray/) | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
 | LeetCode | Algorithms | [Minimum Size Subarray Sum](leetcode/algorithms/minimum-size-subarray-sum/) | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
 | LeetCode | Algorithms | [Longest Substring Without Repeating Characters](leetcode/algorithms/longest-substring-without-repeating-characters/) | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
+| LeetCode | Algorithms | [Container With Most Water](leetcode/algorithms/container-with-most-water/) | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 
 ---
 
