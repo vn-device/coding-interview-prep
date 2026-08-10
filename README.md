@@ -21,6 +21,7 @@
 | LeetCode | Algorithms | [Minimum String Length After Removing Substrings](leetcode/algorithms/minimum-string-length-after-removing-substrings/) | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
 | LeetCode | Algorithms | [Make The String Great](leetcode/algorithms/make-the-string-great/) | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
 | LeetCode | Algorithms | [Asteroid Collision](leetcode/algorithms/asteroid-collision/) | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
+| LeetCode | Algorithms | [Final Value of Variable After Performing Operations](leetcode/algorithms/final-value-of-variable-after-performing-operations/) | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
 | LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
