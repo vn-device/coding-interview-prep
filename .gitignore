@@ -10,3 +10,6 @@ bin/
 *.exe
 *.o
 *.out
+
+# Not needed files
+Practice_Problems.md
