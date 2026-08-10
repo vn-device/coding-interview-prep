@@ -19,6 +19,7 @@
 | LeetCode | Algorithms | [Container With Most Water](leetcode/algorithms/container-with-most-water/) | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Algorithms | [Product of Array Except Self](leetcode/algorithms/product-of-array-except-self/) | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
 | LeetCode | Algorithms | [Minimum String Length After Removing Substrings](leetcode/algorithms/minimum-string-length-after-removing-substrings/) | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
+| LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
 
