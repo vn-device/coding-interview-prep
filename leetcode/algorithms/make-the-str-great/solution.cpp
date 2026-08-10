@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//-------------- Brute Force Method - Time Complexity O(?) --------------
+//-------------- Brute Force Method - Time Complexity O(N) --------------
 string makeGood(const string& s)
 {
     // Worst edge case scenario

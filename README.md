@@ -20,6 +20,7 @@
 | LeetCode | Algorithms | [Product of Array Except Self](leetcode/algorithms/product-of-array-except-self/) | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
 | LeetCode | Algorithms | [Minimum String Length After Removing Substrings](leetcode/algorithms/minimum-string-length-after-removing-substrings/) | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
 | LeetCode | Algorithms | [Make The String Great](leetcode/algorithms/make-the-string-great/) | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
+| LeetCode | Algorithms | [Asteroid Collision](leetcode/algorithms/asteroid-collision/) | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
 | LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
