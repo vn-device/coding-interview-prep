@@ -23,6 +23,7 @@
 | LeetCode | Algorithms | [Asteroid Collision](leetcode/algorithms/asteroid-collision/) | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
 | LeetCode | Algorithms | [Final Value of Variable After Performing Operations](leetcode/algorithms/final-value-of-variable-after-performing-operations/) | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
 | LeetCode | Algorithms | [Number of Different Integers in a String](leetcode/algorithms/number-of-different-integers-in-a-string/) | $O(N)$ | $O(N)$ | String parsing with inline leading-zero normalization and hash set deduplication |
+| LeetCode | Algorithms | [Subdomain Visit Count](leetcode/algorithms/subdomain-visit-count/) | $O(N)$ | $O(N)$ | Hash table aggregation with string index domain slicing |
 | LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
