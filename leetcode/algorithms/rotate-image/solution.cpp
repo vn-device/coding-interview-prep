@@ -2,13 +2,28 @@
 #include <vector>
 #include <algorithm>
 
+//---------- Implementation #2 (Refactored Bounds & Standard Swap) ----------
+/*
+    Optimal Strategy: O(N^2) Time | O(1) Auxiliary Space
+
+    Improvements over Implementation #1:
+
+    1. Pruned Inner Loop Traversal:
+       Initializes inner column loop at c = r + 1 to strictly traverse elements above 
+       the main diagonal. This eliminates the explicit branch check (r < c) present in 
+       Implementation #1, cutting total inner loop iterations and branch checks in half.
+
+    2. Natural Boundary Handling & Guard Elimination:
+       Relying directly on matrix.size() and loop bound invariants (r < n) naturally 
+       handles empty matrix inputs (N = 0) without requiring redundant early return 
+       guard clauses or risk of out-of-bounds access.
+
+    3. Standard Library Move Semantics:
+       Replaces manual temporary variable assignments with std::swap(matrix[r][c], matrix[c][r]), 
+       improving code clarity while leveraging low-level value exchange semantics.
+*/
 void rotate(std::vector<std::vector<int>>& matrix)
 {
-    if (matrix.empty())
-    {
-        return;
-    }
-
     const size_t dimension = matrix.size();
     for (size_t rows = 0; rows < dimension; rows++)
     {
