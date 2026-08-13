@@ -28,6 +28,7 @@
 | LeetCode | Algorithms | [Longest Consecutive Sequence](leetcode/algorithms/longest-consecutive-sequence/) | $O(N)$ | $O(N)$ | Amortized linear set traversal via sequence-starter identification |
 | LeetCode | Algorithms | [Spiral Matrix](leetcode/algorithms/spiral-matrix/) | $O(M \times N)$ | $O(1)$ | 4-boundary inward shrinking grid traversal |
 | LeetCode | Algorithms | [Merge Intervals](leetcode/algorithms/merge-intervals/) | $O(N \log N)$ | $O(N)$ | Monotonic start boundary sorting & linear sweep interval consolidation |
+| LeetCode | Algorithms | [Group Anagrams](leetcode/algorithms/group-anagrams/) | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Hash map bucket aggregation using sorted string canonical keys |
 | LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
