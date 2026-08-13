@@ -31,6 +31,7 @@
 | LeetCode | Algorithms | [Group Anagrams](leetcode/algorithms/group-anagrams/) | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Hash map bucket aggregation using sorted string canonical keys |
 | LeetCode | Algorithms | [Simple Bank System](leetcode/algorithms/sorting-and-intervals/2043-simple-bank-system/) | $O(1)$ per op | $O(N)$ | State simulation & transaction boundary validation |
 | LeetCode | Algorithms | [Richest Customer Wealth](leetcode/algorithms/arrays-and-matrices/1672-richest-customer-wealth/) | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
+| LeetCode | Algorithms | [Best Time to Buy and Sell Stock](leetcode/algorithms/sorting-and-intervals/0121-best-time-to-buy-and-sell-stock/) | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
 | LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
