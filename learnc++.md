@@ -6,15 +6,15 @@ Targeted study checklist for systems-level C++ mechanics, memory layout, and low
 
 ## 1. Priority 1: Core Mechanics, Memory & Lifetimes (Non-Negotiable)
 
-- [ ] **Chapter 12: Compound Types (Lvalue References and Pointers)**
-  - [ ] `12.1` — Value categories (lvalues and rvalues)
-  - [ ] `12.2` — Lvalue references
-  - [ ] `12.3` — Lvalue references to const
-  - [ ] `12.4` — Pass by lvalue reference
-  - [ ] `12.5` — Pass by const lvalue reference
-  - [ ] `12.6` — Return by reference and return by address
-  - [ ] `12.7` — Introduction to pointers
-  - [ ] `12.8` — Null pointers and pointer arithmetic
+- [x] **Chapter 12: Compound Types (Lvalue References and Pointers)**
+  - [x] `12.1` — Value categories (lvalues and rvalues)
+  - [x] `12.2` — Lvalue references
+  - [x] `12.3` — Lvalue references to const
+  - [x] `12.4` — Pass by lvalue reference
+  - [x] `12.5` — Pass by const lvalue reference
+  - [x] `12.6` — Return by reference and return by address
+  - [x] `12.7` — Introduction to pointers
+  - [x] `12.8` — Null pointers and pointer arithmetic
 
 - [ ] **Chapter 19: Dynamic Allocation**
   - [ ] `19.1` — Dynamic memory allocation with `new` and `delete`
