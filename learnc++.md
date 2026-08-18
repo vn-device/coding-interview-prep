@@ -16,11 +16,11 @@ Targeted study checklist for systems-level C++ mechanics, memory layout, and low
   - [x] `12.7` — Introduction to pointers
   - [x] `12.8` — Null pointers and pointer arithmetic
 
-- [ ] **Chapter 19: Dynamic Allocation**
-  - [ ] `19.1` — Dynamic memory allocation with `new` and `delete`
-  - [ ] `19.2` — Memory leaks and dangling pointers
-  - [ ] `19.3` — Dynamically allocating arrays (`new[]` / `delete[]`)
-  - [ ] `19.4` — Destructor invocation order and allocation failure handling
+- [x] **Chapter 19: Dynamic Allocation**
+  - [x] `19.1` — Dynamic memory allocation with `new` and `delete`
+  - [x] `19.2` — Memory leaks and dangling pointers
+  - [x] `19.3` — Dynamically allocating arrays (`new[]` / `delete[]`)
+  - [x] `19.4` — Destructor invocation order and allocation failure handling
 
 - [ ] **Chapter 21: Operator Overloading & Copy Semantics**
   - [ ] `21.11` — The copy constructor
