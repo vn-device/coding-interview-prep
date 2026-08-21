@@ -35,6 +35,7 @@
 | LeetCode | Algorithms | [Richest Customer Wealth](leetcode/algorithms/arrays-and-matrices/1672-richest-customer-wealth/) | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
 | LeetCode | Algorithms | [Best Time to Buy and Sell Stock](leetcode/algorithms/sorting-and-intervals/0121-best-time-to-buy-and-sell-stock/) | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
 | LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
+| LeetCode | Algorithms | [Ransom Note](leetcode/algorithms/hash-maps-and-sets/0383-ransom-note/) | $O(M + N)$ | $O(1)$ | Direct-address frequency inventory decrement with early deficit pruning |
 
 ---
 
