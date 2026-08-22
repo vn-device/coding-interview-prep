@@ -8,36 +8,37 @@
 
 | Platform | Domain | Problem | Time Complexity | Space Complexity | Core Concept |
 | :--- | :--- | :--- | :--- | :--- | :--- |
+| HackerRank | Bit Manipulation & Hardware | [Sum vs XOR](hackerrank/bit-manipulation-hardware/sum-vs-xor/) | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
 | HackerRank | C++ Systems Architecture | [Attribute Parser](hackerrank/cpp-systems-architecture/attribute-parser/) | $O(N \cdot L + Q)$ | $O(N \cdot A)$ | Stack-based path scope serialization and $O(1)$ map lookup |
 | HackerRank | Data Structures & Buffers | [Jesse and Cookies](hackerrank/data-structures-and-buffers/jesse-and-cookies/) | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
 | HackerRank | Data Structures & Buffers | [Largest Rectangle](hackerrank/data-structures-and-buffers/largest-rectangle/) | $O(N)$ | $O(N)$ | Amortized $O(N)$ monotonic stack boundary traversal |
 | HackerRank | Data Structures & Buffers | [Making Anagrams](hackerrank/data-structures-and-buffers/making-anagrams/) | $O(N + M)$ | $O(1)$ | Dual-string frequency delta accumulation via symmetric absolute difference |
-| HackerRank | Bit Manipulation & Hardware | [Sum vs XOR](hackerrank/bit-manipulation-hardware/sum-vs-xor/) | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
-| LeetCode | Algorithms | [Subarray Sum Equals K](leetcode/algorithms/subarray-sum-equals-k/) | $O(N)$ | $O(N)$ | Cumulative prefix sum identity and `std::unordered_map` frequency tracking |
-| LeetCode | Algorithms | [Maximum Subarray](leetcode/algorithms/maximum-subarray/) | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
-| LeetCode | Algorithms | [Minimum Size Subarray Sum](leetcode/algorithms/minimum-size-subarray-sum/) | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
-| LeetCode | Algorithms | [Longest Substring Without Repeating Characters](leetcode/algorithms/longest-substring-without-repeating-characters/) | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
-| LeetCode | Algorithms | [Container With Most Water](leetcode/algorithms/container-with-most-water/) | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
-| LeetCode | Algorithms | [Product of Array Except Self](leetcode/algorithms/product-of-array-except-self/) | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
-| LeetCode | Algorithms | [Minimum String Length After Removing Substrings](leetcode/algorithms/minimum-string-length-after-removing-substrings/) | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
-| LeetCode | Algorithms | [Make The String Great](leetcode/algorithms/make-the-string-great/) | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
-| LeetCode | Algorithms | [Asteroid Collision](leetcode/algorithms/asteroid-collision/) | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
-| LeetCode | Algorithms | [Final Value of Variable After Performing Operations](leetcode/algorithms/final-value-of-variable-after-performing-operations/) | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
-| LeetCode | Algorithms | [Number of Different Integers in a String](leetcode/algorithms/number-of-different-integers-in-a-string/) | $O(N)$ | $O(N)$ | String parsing with inline leading-zero normalization and hash set deduplication |
-| LeetCode | Algorithms | [Subdomain Visit Count](leetcode/algorithms/subdomain-visit-count/) | $O(N)$ | $O(N)$ | Hash table aggregation with string index domain slicing |
-| LeetCode | Algorithms | [Rotate Image](leetcode/algorithms/rotate-image/) | $O(N^2)$ | $O(1)$ | In-place matrix transformation via main diagonal transpose and row reversal |
-| LeetCode | Algorithms | [Longest Consecutive Sequence](leetcode/algorithms/longest-consecutive-sequence/) | $O(N)$ | $O(N)$ | Amortized linear set traversal via sequence-starter identification |
-| LeetCode | Algorithms | [Spiral Matrix](leetcode/algorithms/spiral-matrix/) | $O(M \times N)$ | $O(1)$ | 4-boundary inward shrinking grid traversal |
-| LeetCode | Algorithms | [Merge Intervals](leetcode/algorithms/merge-intervals/) | $O(N \log N)$ | $O(N)$ | Monotonic start boundary sorting & linear sweep interval consolidation |
-| LeetCode | Algorithms | [Valid Anagram](leetcode/algorithms/hash-maps-and-sets/valid-anagram/) | $O(N)$ | $O(1)$ | Direct-mapped 26-element stack frequency delta balancing |
-| LeetCode | Algorithms | [Group Anagrams](leetcode/algorithms/group-anagrams/) | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Hash map bucket aggregation using sorted string canonical keys |
-| LeetCode | Algorithms | [Insert Delete GetRandom O(1)](leetcode/algorithms/hash-maps-and-sets/0380-insert-delete-getrandom-o1/) | $O(1)$ | $O(N)$ | Dual-structure synchronization (`unordered_map` index lookup + vector back-swap deletion) |
-| LeetCode | Algorithms | [Simple Bank System](leetcode/algorithms/sorting-and-intervals/2043-simple-bank-system/) | $O(1)$ per op | $O(N)$ | State simulation & transaction boundary validation |
-| LeetCode | Algorithms | [Richest Customer Wealth](leetcode/algorithms/arrays-and-matrices/1672-richest-customer-wealth/) | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
-| LeetCode | Algorithms | [Best Time to Buy and Sell Stock](leetcode/algorithms/sorting-and-intervals/0121-best-time-to-buy-and-sell-stock/) | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
-| LeetCode | Algorithms | [Remove All Adjacent Duplicates In String](leetcode/algorithms/remove-all-adjacent-duplicates-in-string/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
-| LeetCode | Algorithms | [Ransom Note](leetcode/algorithms/hash-maps-and-sets/0383-ransom-note/) | $O(M + N)$ | $O(1)$ | Direct-address frequency inventory decrement with early deficit pruning |
-| LeetCode | Algorithms | [Find All Anagrams in a String](leetcode/algorithms/sliding-window-and-pointers/find-all-anagrams-in-a-string/) | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
+| LeetCode | Arrays & Matrices | [Maximum Subarray](leetcode/algorithms/arrays-and-matrices/maximum-subarray/) | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
+| LeetCode | Arrays & Matrices | [Product of Array Except Self](leetcode/algorithms/arrays-and-matrices/product-of-array-except-self/) | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
+| LeetCode | Arrays & Matrices | [Richest Customer Wealth](leetcode/algorithms/arrays-and-matrices/1672-richest-customer-wealth/) | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
+| LeetCode | Arrays & Matrices | [Rotate Image](leetcode/algorithms/arrays-and-matrices/rotate-image/) | $O(N^2)$ | $O(1)$ | In-place matrix transformation via main diagonal transpose and row reversal |
+| LeetCode | Arrays & Matrices | [Spiral Matrix](leetcode/algorithms/arrays-and-matrices/spiral-matrix/) | $O(M \times N)$ | $O(1)$ | 4-boundary inward shrinking grid traversal |
+| LeetCode | Arrays & Matrices | [Subarray Sum Equals K](leetcode/algorithms/arrays-and-matrices/subarray-sum-equals-k/) | $O(N)$ | $O(N)$ | Cumulative prefix sum identity and `std::unordered_map` frequency tracking |
+| LeetCode | Hash Maps & Sets | [Group Anagrams](leetcode/algorithms/hash-maps-and-sets/group-anagrams/) | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Hash map bucket aggregation using sorted string canonical keys |
+| LeetCode | Hash Maps & Sets | [Insert Delete GetRandom O(1)](leetcode/algorithms/hash-maps-and-sets/0380-insert-delete-getrandom-o1/) | $O(1)$ | $O(N)$ | Dual-structure synchronization (`unordered_map` index lookup + vector back-swap deletion) |
+| LeetCode | Hash Maps & Sets | [Longest Consecutive Sequence](leetcode/algorithms/hash-maps-and-sets/longest-consecutive-sequence/) | $O(N)$ | $O(N)$ | Amortized linear set traversal via sequence-starter identification |
+| LeetCode | Hash Maps & Sets | [Ransom Note](leetcode/algorithms/hash-maps-and-sets/0383-ransom-note/) | $O(M + N)$ | $O(1)$ | Direct-address frequency inventory decrement with early deficit pruning |
+| LeetCode | Hash Maps & Sets | [Subdomain Visit Count](leetcode/algorithms/hash-maps-and-sets/subdomain-visit-count/) | $O(N)$ | $O(N)$ | Hash table aggregation with string index domain slicing |
+| LeetCode | Hash Maps & Sets | [Valid Anagram](leetcode/algorithms/hash-maps-and-sets/valid-anagram/) | $O(N)$ | $O(1)$ | Direct-mapped 26-element stack frequency delta balancing |
+| LeetCode | Sliding Window & Pointers | [Container With Most Water](leetcode/algorithms/sliding-window-and-pointers/container-w-most-water/) | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
+| LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String](leetcode/algorithms/sliding-window-and-pointers/find-all-anagrams-in-a-string/) | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
+| LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters](leetcode/algorithms/sliding-window-and-pointers/longest-substring-without-repeating-characters/) | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
+| LeetCode | Sliding Window & Pointers | [Minimum Size Subarray Sum](leetcode/algorithms/sliding-window-and-pointers/minimum-size-subarray-sum/) | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
+| LeetCode | Sorting & Intervals | [Best Time to Buy and Sell Stock](leetcode/algorithms/sorting-and-intervals/0121-best-time-to-buy-and-sell-stock/) | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
+| LeetCode | Sorting & Intervals | [Maximize Sum Of Array After K Negations](leetcode/algorithms/sorting-and-intervals/1005-maximize-sum-of-array-after-k-negations/) | $O(N \log N)$ | $O(1)$ | Greedy sorting with sign-inversion saturation and parity reduction |
+| LeetCode | Sorting & Intervals | [Merge Intervals](leetcode/algorithms/sorting-and-intervals/merge-intervals/) | $O(N \log N)$ | $O(N)$ | Monotonic start boundary sorting & linear sweep interval consolidation |
+| LeetCode | Sorting & Intervals | [Simple Bank System](leetcode/algorithms/sorting-and-intervals/2043-simple-bank-system/) | $O(1)$ per op | $O(N)$ | State simulation & transaction boundary validation |
+| LeetCode | Stack & Strings | [Asteroid Collision](leetcode/algorithms/stack-and-strings/asteroid-collision/) | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
+| LeetCode | Stack & Strings | [Final Value of Variable After Performing Operations](leetcode/algorithms/stack-and-strings/final-value-of-variable-after-performing-operations/) | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
+| LeetCode | Stack & Strings | [Make The String Great](leetcode/algorithms/stack-and-strings/make-the-str-great/) | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
+| LeetCode | Stack & Strings | [Minimum String Length After Removing Substrings](leetcode/algorithms/stack-and-strings/minimum-string-length-after-removing-substrings/) | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
+| LeetCode | Stack & Strings | [Number of Different Integers in a String](leetcode/algorithms/stack-and-strings/number-of-different-ints-in-a-string/) | $O(N)$ | $O(N)$ | String parsing with inline leading-zero normalization and hash set deduplication |
+| LeetCode | Stack & Strings | [Remove All Adjacent Duplicates In String](leetcode/algorithms/stack-and-strings/remove-all-adjacent-dupes-in-str/) | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 
 ---
 
