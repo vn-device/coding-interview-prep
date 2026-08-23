@@ -13,6 +13,7 @@
 | HackerRank | Data Structures & Buffers | [Jesse and Cookies]() | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
 | HackerRank | Data Structures & Buffers | [Largest Rectangle]() | $O(N)$ | $O(N)$ | Amortized $O(N)$ monotonic stack boundary traversal |
 | HackerRank | Data Structures & Buffers | [Making Anagrams]() | $O(N + M)$ | $O(1)$ | Dual-string frequency delta accumulation via symmetric absolute difference |
+| HackerRank | Data Structures & Buffers | [Alternating Characters]() | $O(N)$ | $O(1)$ | Single-pass linear scan counting adjacent identical character collisions |
 | HackerRank | Sorting & Intervals | [Minimum Absolute Difference in an Array]() | $O(N \log N)$ | $O(1)$ | Monotonic sorting with adjacent pair delta scan |
 | LeetCode | Arrays & Matrices | [Maximum Subarray]() | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
 | LeetCode | Arrays & Matrices | [Product of Array Except Self]() | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
