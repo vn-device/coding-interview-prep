@@ -22,7 +22,6 @@
 | LeetCode | Arrays & Matrices | [Richest Customer Wealth]() | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
 | LeetCode | Arrays & Matrices | [Rotate Image]() | $O(N^2)$ | $O(1)$ | In-place matrix transformation via main diagonal transpose and row reversal |
 | LeetCode | Arrays & Matrices | [Spiral Matrix]() | $O(M \times N)$ | $O(1)$ | 4-boundary inward shrinking grid traversal |
-| LeetCode | Arrays & Matrices | [Subarray Sum Equals K]() | $O(N)$ | $O(N)$ | Cumulative prefix sum identity and `std::unordered_map` frequency tracking |
 | LeetCode | Hash Maps & Sets | [Group Anagrams]() | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Hash map bucket aggregation using sorted string canonical keys |
 | LeetCode | Hash Maps & Sets | [Insert Delete GetRandom O(1)]() | $O(1)$ | $O(N)$ | Dual-structure synchronization (`unordered_map` index lookup + vector back-swap deletion) |
 | LeetCode | Hash Maps & Sets | [Longest Consecutive Sequence]() | $O(N)$ | $O(N)$ | Amortized linear set traversal via sequence-starter identification |
@@ -31,6 +30,7 @@
 | LeetCode | Hash Maps & Sets | [Valid Anagram]() | $O(N)$ | $O(1)$ | Direct-mapped 26-element stack frequency delta balancing |
 | LeetCode | Hash Maps & Sets | [Longest Palindrome]() | $O(N)$ | $O(1)$ | Direct ASCII frequency histogram with even-parity bitmask aggregation |
 | LeetCode | Hash Maps & Sets | [Number of Good Pairs](leetcode/algorithms/hash-maps-and-sets/number-of-good-pairs/solution.cpp) | $O(N)$ | $O(1)$ | Direct frequency array with online combinatorial pair accumulation |
+| LeetCode | Hash Maps & Sets | [Subarray Sum Equals K](leetcode/algorithms/hash-maps-and-sets/subarray-sum-equals-k/solution.cpp) | $O(N)$ | $O(N)$ | Online prefix sum frequency hashing with target complement lookups |
 | LeetCode | Sliding Window & Pointers | [Container With Most Water]() | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String]() | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
 | LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters]() | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
