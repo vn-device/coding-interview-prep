@@ -30,6 +30,7 @@
 | LeetCode | Hash Maps & Sets | [Subdomain Visit Count]() | $O(N)$ | $O(N)$ | Hash table aggregation with string index domain slicing |
 | LeetCode | Hash Maps & Sets | [Valid Anagram]() | $O(N)$ | $O(1)$ | Direct-mapped 26-element stack frequency delta balancing |
 | LeetCode | Hash Maps & Sets | [Longest Palindrome]() | $O(N)$ | $O(1)$ | Direct ASCII frequency histogram with even-parity bitmask aggregation |
+| LeetCode | Hash Maps & Sets | [Number of Good Pairs](leetcode/algorithms/hash-maps-and-sets/number-of-good-pairs/solution.cpp) | $O(N)$ | $O(1)$ | Direct frequency array with online combinatorial pair accumulation |
 | LeetCode | Sliding Window & Pointers | [Container With Most Water]() | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String]() | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
 | LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters]() | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
