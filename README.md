@@ -32,6 +32,7 @@
 | LeetCode | Hash Maps & Sets | [Number of Good Pairs](leetcode/algorithms/hash-maps-and-sets/number-of-good-pairs/solution.cpp) | $O(N)$ | $O(1)$ | Direct frequency array with online combinatorial pair accumulation |
 | LeetCode | Hash Maps & Sets | [Subarray Sum Equals K](leetcode/algorithms/hash-maps-and-sets/subarray-sum-equals-k/solution.cpp) | $O(N)$ | $O(N)$ | Online prefix sum frequency hashing with target complement lookups |
 | LeetCode | Hash Maps & Sets | [Two Sum](leetcode/algorithms/hash-maps-and-sets/two-sum/solution.cpp) | $O(N)$ | $O(N)$ | Single-pass hash map target complement index lookup |
+| LeetCode | Hash Maps & Sets | [K-diff Pairs in an Array](leetcode/algorithms/hash-maps-and-sets/k-diff-pairs-in-an-array/solution.cpp) | $O(N)$ | $O(N)$ | Frequency hash map with directed complement lookup and zero-diff branching |
 | LeetCode | Sliding Window & Pointers | [Container With Most Water]() | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String]() | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
 | LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters]() | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
