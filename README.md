@@ -29,14 +29,15 @@
 | LeetCode | Hash Maps & Sets | [Subdomain Visit Count]() | $O(N)$ | $O(N)$ | Hash table aggregation with string index domain slicing |
 | LeetCode | Hash Maps & Sets | [Valid Anagram]() | $O(N)$ | $O(1)$ | Direct-mapped 26-element stack frequency delta balancing |
 | LeetCode | Hash Maps & Sets | [Longest Palindrome]() | $O(N)$ | $O(1)$ | Direct ASCII frequency histogram with even-parity bitmask aggregation |
-| LeetCode | Hash Maps & Sets | [Number of Good Pairs](leetcode/algorithms/hash-maps-and-sets/number-of-good-pairs/solution.cpp) | $O(N)$ | $O(1)$ | Direct frequency array with online combinatorial pair accumulation |
-| LeetCode | Hash Maps & Sets | [Subarray Sum Equals K](leetcode/algorithms/hash-maps-and-sets/subarray-sum-equals-k/solution.cpp) | $O(N)$ | $O(N)$ | Online prefix sum frequency hashing with target complement lookups |
-| LeetCode | Hash Maps & Sets | [Two Sum](leetcode/algorithms/hash-maps-and-sets/two-sum/solution.cpp) | $O(N)$ | $O(N)$ | Single-pass hash map target complement index lookup |
-| LeetCode | Hash Maps & Sets | [K-diff Pairs in an Array](leetcode/algorithms/hash-maps-and-sets/k-diff-pairs-in-an-array/solution.cpp) | $O(N)$ | $O(N)$ | Frequency hash map with directed complement lookup and zero-diff branching |
+| LeetCode | Hash Maps & Sets | [Number of Good Pairs]() | $O(N)$ | $O(1)$ | Direct frequency array with online combinatorial pair accumulation |
+| LeetCode | Hash Maps & Sets | [Subarray Sum Equals K]() | $O(N)$ | $O(N)$ | Online prefix sum frequency hashing with target complement lookups |
+| LeetCode | Hash Maps & Sets | [Two Sum]() | $O(N)$ | $O(N)$ | Single-pass hash map target complement index lookup |
+| LeetCode | Hash Maps & Sets | [K-diff Pairs in an Array]() | $O(N)$ | $O(N)$ | Frequency hash map with directed complement lookup and zero-diff branching |
 | LeetCode | Sliding Window & Pointers | [Container With Most Water]() | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String]() | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
 | LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters]() | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
 | LeetCode | Sliding Window & Pointers | [Minimum Size Subarray Sum]() | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
+| LeetCode | Sliding Window & Pointers | [Two Sum II - Input Array Is Sorted]() | $O(N)$ | $O(1)$ | Monotonic converging two-pointer scan with 1-based index mapping |
 | LeetCode | Sorting & Intervals | [Array Partition]() | $O(N \log N)$ | $O(1)$ | Greedy monotonic sorting with even-index stride accumulation |
 | LeetCode | Sorting & Intervals | [Best Time to Buy and Sell Stock]() | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
 | LeetCode | Sorting & Intervals | [Maximize Sum Of Array After K Negations]() | $O(N \log N)$ | $O(1)$ | Greedy sorting with sign-inversion saturation and parity reduction |
