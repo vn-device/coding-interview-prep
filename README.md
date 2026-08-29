@@ -10,11 +10,12 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | HackerRank | Bit Manipulation & Hardware | [Sum vs XOR]() | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
 | HackerRank | C++ Systems Architecture | [Attribute Parser]() | $O(N \cdot L + Q)$ | $O(N \cdot A)$ | Stack-based path scope serialization and $O(1)$ map lookup |
-| HackerRank | Data Structures & Buffers | [Jesse and Cookies]() | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
 | HackerRank | Data Structures & Buffers | [Largest Rectangle]() | $O(N)$ | $O(N)$ | Amortized $O(N)$ monotonic stack boundary traversal |
 | HackerRank | Data Structures & Buffers | [Making Anagrams]() | $O(N + M)$ | $O(1)$ | Dual-string frequency delta accumulation via symmetric absolute difference |
 | HackerRank | Data Structures & Buffers | [Alternating Characters]() | $O(N)$ | $O(1)$ | Single-pass linear scan counting adjacent identical character collisions |
 | HackerRank | Dictionaries & Hash Maps | [Sherlock and Anagrams]() | $O(N^3 \log N)$ | $O(N^2)$ | Substring canonical sorting with frequency map combinatorial reduction |
+| HackerRank | Heaps | [Jesse and Cookies]() | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
+| HackerRank | Heaps | [Find the Running Median]() | $O(N \log N)$ | $O(N)$ | Dual-heap (max-heap/min-heap) stream partitioning and dynamic balancing |
 | HackerRank | Search | [Pairs]() | $O(N \log N)$ | $O(1)$ | Sort with monotonic two-pointer sliding difference scan |
 | HackerRank | Sorting & Intervals | [Minimum Absolute Difference in an Array]() | $O(N \log N)$ | $O(1)$ | Monotonic sorting with adjacent pair delta scan |
 | LeetCode | Arrays & Matrices | [Maximum Subarray]() | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
