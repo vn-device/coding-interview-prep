@@ -40,6 +40,7 @@
 | LeetCode | Heap / Bucket Sort | [Top K Frequent Elements]() | $O(N)$ or $O(N \log K)$ | $O(N)$ or $O(N + K)$ | Frequency bucket sort aggregation vs. bounded min-heap of size $K$ |
 | LeetCode | Heap (Priority Queue) | [Merge k Sorted Lists]() | $O(N \log K)$ | $O(K)$ | $K$-way stream merge using min-heap pointer tracking with custom comparator functor |
 | LeetCode | Heap (Priority Queue) | [Find Median from Data Stream]() | $O(\log N)$ add / $O(1)$ find | $O(N)$ | Dual-heap (max-heap/min-heap) dynamic stream partitioning and size balancing |
+| LeetCode | Sliding Window / Heap | [Sliding Window Median]() | $O(N \log K)$ | $O(K)$ or $O(N)$ | Dual-heap with lazy deletion vs. `std::multiset` tracked iterator |
 | LeetCode | Sliding Window & Pointers | [Container With Most Water]() | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String]() | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
 | LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters]() | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
