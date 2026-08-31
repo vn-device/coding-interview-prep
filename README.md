@@ -38,6 +38,7 @@
 | LeetCode | Heap (Priority Queue) | [Kth Largest Element in a Stream]() | $O(\log K)$ per op | $O(K)$ | Bounded min-heap of size $K$ with $O(1)$ root extraction |
 | LeetCode | Heap (Priority Queue) | [Kth Largest Element in an Array]() | $O(N)$ or $O(N \log K)$ | $O(1)$ or $O(K)$ | In-place `std::nth_element` Introselect partitioning vs. bounded min-heap of size $K$ |
 | LeetCode | Heap / Bucket Sort | [Top K Frequent Elements]() | $O(N)$ or $O(N \log K)$ | $O(N)$ or $O(N + K)$ | Frequency bucket sort aggregation vs. bounded min-heap of size $K$ |
+| LeetCode | Heap (Priority Queue) | [Merge k Sorted Lists]() | $O(N \log K)$ | $O(K)$ | $K$-way stream merge using min-heap pointer tracking with custom comparator functor |
 | LeetCode | Sliding Window & Pointers | [Container With Most Water]() | $O(N)$ | $O(1)$ | Two-pointer greedy shrinking window bottlenecked by shorter height |
 | LeetCode | Sliding Window & Pointers | [Find All Anagrams in a String]() | $O(\|S\|)$ | $O(1)$ | Fixed-size sliding window with incremental direct-mapped frequency delta tracking |
 | LeetCode | Sliding Window & Pointers | [Longest Substring Without Repeating Characters]() | $O(N)$ | $O(1)$ | Dynamic sliding window & character last-seen direct-address index jumping |
