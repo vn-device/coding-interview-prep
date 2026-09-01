@@ -18,6 +18,7 @@
 | HackerRank | Heaps | [Find the Running Median]() | $O(N \log N)$ | $O(N)$ | Dual-heap (max-heap/min-heap) stream partitioning and dynamic balancing |
 | HackerRank | Search | [Pairs]() | $O(N \log N)$ | $O(1)$ | Sort with monotonic two-pointer sliding difference scan |
 | HackerRank | Sorting & Intervals | [Minimum Absolute Difference in an Array]() | $O(N \log N)$ | $O(1)$ | Monotonic sorting with adjacent pair delta scan |
+| HackerRank | Stacks & Queues | [Queue using Two Stacks]() | Medium | $O(1)$ amortized | $O(N)$ | Dual-stack FIFO simulation (`stackIn` / `stackOut`) with lazy transfer rebalancing |
 | LeetCode | Arrays & Matrices | [Maximum Subarray]() | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
 | LeetCode | Arrays & Matrices | [Product of Array Except Self]() | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
 | LeetCode | Arrays & Matrices | [Richest Customer Wealth]() | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
