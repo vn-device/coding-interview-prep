@@ -56,13 +56,14 @@
 | LeetCode | Sorting & Intervals | [Assign Cookies]() | $O(M \log M + N \log N)$ | $O(1)$ | Dual-array greedy sorting with two-pointer greed-cookie matching |
 | LeetCode | Sorting & Intervals | [Task Scheduler]() | $O(N)$ | $O(1)$ | Greedy maximum-frequency frame scheduling with idle-slot fill invariant |
 | LeetCode | Sorting & Intervals | [Largest Perimeter Triangle]() | $O(N \log N)$ | $O(1)$ | Reverse monotonic sort scan enforcing triangle inequality invariant |
-| LeetCode | Stack & Strings | [Asteroid Collision]() | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
-| LeetCode | Stack & Strings | [Final Value of Variable After Performing Operations]() | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
-| LeetCode | Stack & Strings | [Make The String Great]() | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
-| LeetCode | Stack & Strings | [Minimum String Length After Removing Substrings]() | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
-| LeetCode | Stack & Strings | [Number of Different Integers in a String]() | $O(N)$ | $O(N)$ | String parsing with inline leading-zero normalization and hash set deduplication |
-| LeetCode | Stack & Strings | [Remove All Adjacent Duplicates In String]() | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
-| LeetCode | Stack & Strings | [Validate IP Address]() | $O(N)$ | $O(1)$ | Single-pass delimiter tokenization with strict IPv4/IPv6 lexical invariant validation |
+| LeetCode | Stacks, Queues, and Strings | [Asteroid Collision]() | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
+| LeetCode | Stacks, Queues, and Strings | [Final Value of Variable After Performing Operations]() | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
+| LeetCode | Stacks, Queues, and Strings | [Make The String Great]() | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
+| LeetCode | Stacks, Queues, and Strings | [Minimum String Length After Removing Substrings]() | $O(N)$ | $O(N)$ | Stack accumulator pattern for linear adjacent character pair reduction |
+| LeetCode | Stacks, Queues, and Strings | [Number of Different Integers in a String]() | $O(N)$ | $O(N)$ | String parsing with inline leading-zero normalization and hash set deduplication |
+| LeetCode | Stacks, Queues, and Strings | [Remove All Adjacent Duplicates In String]() | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
+| LeetCode | Stacks, Queues, and Strings | [Validate IP Address]() | $O(N)$ | $O(1)$ | Single-pass delimiter tokenization with strict IPv4/IPv6 lexical invariant validation |
+| LeetCode | Stacks, Queues, and Strings | [Implement Queue using Stacks]() | Easy | $O(1)$ amortized | $O(N)$ | Dual-stack FIFO simulation (`inbox` / `outbox`) with lazy element transfer |
 
 ---
 
