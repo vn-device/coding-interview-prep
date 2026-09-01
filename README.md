@@ -14,6 +14,7 @@
 | HackerRank | Data Structures & Buffers | [Making Anagrams]() | $O(N + M)$ | $O(1)$ | Dual-string frequency delta accumulation via symmetric absolute difference |
 | HackerRank | Data Structures & Buffers | [Alternating Characters]() | $O(N)$ | $O(1)$ | Single-pass linear scan counting adjacent identical character collisions |
 | HackerRank | Dictionaries & Hash Maps | [Sherlock and Anagrams]() | $O(N^3 \log N)$ | $O(N^2)$ | Substring canonical sorting with frequency map combinatorial reduction |
+| HackerRank | Dictionaries & Hash Maps | [Sparse Arrays]() | Medium | $O((N + Q) \cdot L)$ | $O(N \cdot L)$ | String frequency aggregation via `std::unordered_map` lookup |
 | HackerRank | Heaps | [Jesse and Cookies]() | $O(N \log N)$ | $O(N)$ | Min-heap (`std::priority_queue`) dynamic order tracking via Floyd's construction |
 | HackerRank | Heaps | [Find the Running Median]() | $O(N \log N)$ | $O(N)$ | Dual-heap (max-heap/min-heap) stream partitioning and dynamic balancing |
 | HackerRank | Search | [Pairs]() | $O(N \log N)$ | $O(1)$ | Sort with monotonic two-pointer sliding difference scan |
