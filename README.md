@@ -63,7 +63,8 @@
 | LeetCode | Stacks, Queues, and Strings | [Number of Different Integers in a String]() | $O(N)$ | $O(N)$ | String parsing with inline leading-zero normalization and hash set deduplication |
 | LeetCode | Stacks, Queues, and Strings | [Remove All Adjacent Duplicates In String]() | $O(N)$ | $O(N)$ | Single-pass string stack accumulator for adjacent duplicate elimination |
 | LeetCode | Stacks, Queues, and Strings | [Validate IP Address]() | $O(N)$ | $O(1)$ | Single-pass delimiter tokenization with strict IPv4/IPv6 lexical invariant validation |
-| LeetCode | Stacks, Queues, and Strings | [Implement Queue using Stacks]() | Easy | $O(1)$ amortized | $O(N)$ | Dual-stack FIFO simulation (`inbox` / `outbox`) with lazy element transfer |
+| LeetCode | Stacks, Queues, and Strings | [Implement Queue using Stacks]() | $O(1)$ amortized | $O(N)$ | Dual-stack FIFO simulation (`inbox` / `outbox`) with lazy element transfer |
+| LeetCode | Stacks, Queues, and Strings | [Implement Stack using Queues]() | $O(N)$ push / $O(1)$ pop (or vice versa) | $O(N)$ | Single-queue circular rotation simulating LIFO mechanics |
 
 ---
 
