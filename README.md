@@ -28,6 +28,7 @@
 | LeetCode | Arrays & Matrices | [Rotate Image]() | $O(N^2)$ | $O(1)$ | In-place matrix transformation via main diagonal transpose and row reversal |
 | LeetCode | Arrays & Matrices | [Spiral Matrix]() | $O(M \times N)$ | $O(1)$ | 4-boundary inward shrinking grid traversal |
 | LeetCode | Bit Manipulation | [Single Number]() | $O(N)$ | $O(1)$ | Direct bitwise XOR reduction fold using nilpotence ($x \oplus x = 0$) and identity ($x \oplus 0 = x$) |
+| LeetCode | Bit Manipulation | [Missing Number]() | $O(N)$ | $O(1)$ | Dual-range XOR reduction across expected set $[0, N]$ and array elements via nilpotence |
 | LeetCode | Hash Maps & Sets | [Group Anagrams]() | $O(N \cdot K \log K)$ | $O(N \cdot K)$ | Hash map bucket aggregation using sorted string canonical keys |
 | LeetCode | Hash Maps & Sets | [Insert Delete GetRandom O(1)]() | $O(1)$ | $O(N)$ | Dual-structure synchronization (`unordered_map` index lookup + vector back-swap deletion) |
 | LeetCode | Hash Maps & Sets | [Longest Consecutive Sequence]() | $O(N)$ | $O(N)$ | Amortized linear set traversal via sequence-starter identification |
