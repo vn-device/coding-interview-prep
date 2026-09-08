@@ -76,6 +76,7 @@
 | LeetCode | Stacks, Queues, and Strings | [LRU Cache]() | $O(1)$ get / put | $O(C)$ | Hash map + `std::list` with `splice()` for $O(1)$ in-place recency promotion |
 | LeetCode | Stacks, Queues, and Strings | [Valid Parentheses]() | $O(N)$ | $O(N)$ | Contiguous LIFO stack with expected-closing token mirroring and $O(1)$ parity pruning |
 | LeetCode | Stacks, Queues, and Strings | [Evaluate RPN]() | $O(N)$ | $O(N)$ | Postfix stream parsing using contiguous vector stack with in-place scalar arithmetic |
+| LeetCode | Stacks / String Parsing | [Simplify Path]() | $O(N)$ | $O(N)$ | Canonical path state machine resolving `.` and `..` tokens using delimiter parsing and a LIFO stack |
 
 ---
 
