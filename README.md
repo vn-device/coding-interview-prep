@@ -22,6 +22,7 @@
 | HackerRank | Sorting & Intervals | [Minimum Absolute Difference in an Array]() | $O(N \log N)$ | $O(1)$ | Monotonic sorting with adjacent pair delta scan |
 | HackerRank | Stacks & Queues | [Queue using Two Stacks]() | Medium | $O(1)$ amortized | $O(N)$ | Dual-stack FIFO simulation (`stackIn` / `stackOut`) with lazy transfer rebalancing |
 | HackerRank | Stacks & Queues | [Balanced Brackets]() | $O(N)$ | $O(N)$ | LIFO parsing stack with expected-char matching and $O(1)$ parity/mismatch early exit |
+| HackerRank | Stacks & Queues | [Simple Text Editor]() | $O(Q \cdot K)$ | $O(Q \cdot K)$ | Interactive text buffer supporting $O(1)$ random-access prints and $O(K)$ rollback using an inverted delta command stack |
 | LeetCode | Arrays & Matrices | [Maximum Subarray]() | $O(N)$ | $O(1)$ | Kadane's Algorithm local reset state invariant |
 | LeetCode | Arrays & Matrices | [Product of Array Except Self]() | $O(N)$ | $O(1)$ | Two-pass prefix/suffix accumulation using output space and a running right product scalar |
 | LeetCode | Arrays & Matrices | [Richest Customer Wealth]() | $O(M \times N)$ | $O(1)$ | Single-pass row aggregation & maximum value tracking |
