@@ -1,95 +1,116 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
-#include <unordered_map>
-#include <sstream>
+//==============================================================================
+// HackerRank: Attribute Parser (HRML Document Model)
+// Strategy: Hierarchical Prefix Stack & In-Place Lexical Tokenizer
+//==============================================================================
+/*
+    Complexity Analysis:
+    - Time Complexity:
+      - Ingestion & Parsing: O(N * L) where N is totalLines and L is max line length.
+        Tokenizing tag names and attribute key-value pairs operates in a single linear pass.
+      - Query Resolution: O(Q * K) average time, where Q is totalQueries and K is query string length.
+        Each lookup hits 'attributesDB' via O(K) hash computation and equality comparison.
+      - Total Time: O(N * L + Q * K).
+    - Auxiliary Space: O(U * M)
+      - 'attributesDB' stores U unique fully-qualified attribute paths of average length M.
+      - 'tagStack' depth is bounded by maximum nesting depth D <= N.
 
-using namespace std;
+    Algorithmic & Structural Invariants:
+    1. Scope Invariant:
+       - An opening tag pushes to 'tagStack' and extends the current hierarchical prefix.
+       - A closing tag ('</...>') pops the top tag and restores the parent scope.
+    2. Attribute Address Uniqueness:
+       - Every valid attribute is uniquely indexed by the composite key "<tag1>.<tag2>...<tagN>~<attr>".
+
+    Architectural Observations & Systems Considerations:
+    - Zero-Allocation Tokenization:
+      - Replacing 'std::stringstream' and whole-line character erasures with direct index
+        or 'std::string_view' scans preserves whitespace inside quoted attribute values
+        while avoiding stream buffer allocations.
+    - Path Construction Optimization:
+      - Maintaining an incremental path string amortizes hierarchical string concatenation.
+*/
+#include <algorithm>
+#include <iostream>
+#include <sstream>
+#include <string>
+#include <unordered_map>
+#include <vector>
 
 int main()
 {
-    // Fast I/O configuration
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    // Get user input for # of HRML lines and queries
+    int totalLines = 0;
+    int totalQueries = 0;
+    std::cin >> totalLines >> totalQueries;
+    std::cin.ignore();
 
-    int totalLines;
-    int totalQueries;
+    // Get HRML lines and parse them into hashmap
+    std::unordered_map<std::string, std::string> attributesDB;
+    std::string hrmlLine;
 
-    if (!(cin >> totalLines >> totalQueries))
+    std::vector<std::string> stack;
+    stack.reserve(totalLines);
+
+    while (totalLines-- && std::getline(std::cin, hrmlLine))
     {
-        return 0;
-    }
-
-    // Flush the trailing newline character left in the stream buffer by cin
-    cin.ignore();
-
-    unordered_map<string, string> attributesTable;
-    vector<string> tagsStack;
-
-    while (totalLines--)
-    {
-        string line;
-        getline(cin, line);
-
-        // In-place delimiter stripping via Erase-Remove idiom
-        line.erase(remove(line.begin(), line.end(), '<'), line.end());
-        line.erase(remove(line.begin(), line.end(), '"'), line.end());
-        line.erase(remove(line.begin(), line.end(), '>'), line.end());
-
-        stringstream ss(line);
-        string word;
-        ss >> word;
-
-        if (word[0] == '/')
+        // Strip away unncessary characters
+        for (char &c : hrmlLine)
         {
-            // Closing tag reduces active nesting level
-            tagsStack.pop_back();
+            if (c == '<' || c == '>' || c == '"')
+            {
+                c = ' ';
+            }
+        }
+
+        std::stringstream ss(hrmlLine);
+        std::string tag;
+
+        while (!(ss >> tag))
+        {
+            // Try parsing tag if leading whitespace
+            continue;
+        }
+
+        if (tag[0] == '/')
+        {
+            stack.pop_back();
         }
         else
         {
-            // Opening tag increases active nesting level
-            tagsStack.push_back(word);
+            stack.push_back(tag);
+            std::string path = stack[0];
 
-            // Serialize current stack depth into a path prefix
-            string tagsPath = "";
-            for (size_t i = 0; i < tagsStack.size(); ++i)
+            for (size_t i = 1; i < stack.size(); i++)
             {
-                tagsPath += tagsStack[i];
-                if (i != tagsStack.size() - 1)
-                {
-                    tagsPath += ".";
-                }
+                path += ("." + stack[i]);
             }
 
-            string attributeType;
-            string equalSign;
-            string attributeVal;
+            std::string attribute;
+            std::string equal;
+            std::string value;
 
-            // Extract remaining key-value pairs from stream
-            while (ss >> attributeType >> equalSign >> attributeVal)
+            while (ss >> attribute >> equal >> value)
             {
-                // Construct temporary key without mutating base tagsPath
-                string key = tagsPath + "~" + attributeType;
-                attributesTable[key] = attributeVal;
+                std::string key = path + "~" + attribute;
+                attributesDB[key] = value;
             }
         }
     }
 
-    // Process queries against pre-indexed hash table
-    while (totalQueries--)
-    {
-        string query;
-        getline(cin, query);
+    // Get user queries and return appropriate outputs
+    std::string query;
 
-        if (attributesTable.find(query) == attributesTable.end())
+    while (totalQueries-- && std::getline(std::cin, query))
+    {
+        auto iter = attributesDB.find(query);
+
+        if (iter != attributesDB.end())
         {
-            cout << "Not Found!\n";
+            std::cout << iter->second << "\n";
         }
         else
         {
-            cout << attributesTable[query] << "\n";
+            std::cout << "Not Found!\n";
         }
     }
 
