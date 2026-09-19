@@ -56,6 +56,7 @@
 | LeetCode | Sliding Window & Pointers | [Minimum Size Subarray Sum]() | $O(N)$ | $O(1)$ | Variable sliding window monotonicity & prefix sum binary search follow-up |
 | LeetCode | Sliding Window & Pointers | [Two Sum II - Input Array Is Sorted]() | $O(N)$ | $O(1)$ | Monotonic converging two-pointer scan with 1-based index mapping |
 | LeetCode | Sliding Window & Pointers | [String Compression]() | $O(N)$ | $O(1)$ | In-place run-length encoding using fast-read and slow-write pointers to overwrite sequence counts |
+| LeetCode | Sliding Window & Pointers | [String to Integer (atoi)]() | $O(N)$ | $O(1)$ | Sequential 4-state lexical parser with pre-multiplication division clamp preventing 32-bit signed integer overflow |
 | LeetCode | Sorting & Intervals | [Array Partition]() | $O(N \log N)$ | $O(1)$ | Greedy monotonic sorting with even-index stride accumulation |
 | LeetCode | Sorting & Intervals | [Best Time to Buy and Sell Stock]() | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
 | LeetCode | Sorting & Intervals | [Maximize Sum Of Array After K Negations]() | $O(N \log N)$ | $O(1)$ | Greedy sorting with sign-inversion saturation and parity reduction |
@@ -80,7 +81,6 @@
 | LeetCode | Stacks, Queues, and Strings | [Evaluate RPN]() | $O(N)$ | $O(N)$ | Postfix stream parsing using contiguous vector stack with in-place scalar arithmetic |
 | LeetCode | Stacks, Queues, and Strings | [Simplify Path]() | $O(N)$ | $O(N)$ | Canonical path state machine resolving `.` and `..` tokens using delimiter parsing and a LIFO stack |
 | LeetCode | Stacks, Queues, and Strings | [Daily Temperatures]() | $O(N)$ | $O(N)$ | Amortized $O(1)$ next-greater resolution using a strictly decreasing monotonic index stack |
-| LeetCode | Stacks, Queues, and Strings | [String to Integer (atoi)]() | $O(N)$ | $O(1)$ | Sequential 4-state lexical parser with pre-multiplication division clamp preventing 32-bit signed integer overflow |
 
 ---
 
