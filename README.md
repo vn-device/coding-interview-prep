@@ -57,6 +57,7 @@
 | LeetCode | Sliding Window & Pointers | [Two Sum II - Input Array Is Sorted]() | $O(N)$ | $O(1)$ | Monotonic converging two-pointer scan with 1-based index mapping |
 | LeetCode | Sliding Window & Pointers | [String Compression]() | $O(N)$ | $O(1)$ | In-place run-length encoding using fast-read and slow-write pointers to overwrite sequence counts |
 | LeetCode | Sliding Window & Pointers | [String to Integer (atoi)]() | $O(N)$ | $O(1)$ | Sequential 4-state lexical parser with pre-multiplication division clamp preventing 32-bit signed integer overflow |
+| LeetCode | Sliding Window & Pointers | [Reverse Words in a String]() | $O(N)$ | $O(1)$ | Two-pointer whitespace compaction and in-place three-pass string reversal |
 | LeetCode | Sorting & Intervals | [Array Partition]() | $O(N \log N)$ | $O(1)$ | Greedy monotonic sorting with even-index stride accumulation |
 | LeetCode | Sorting & Intervals | [Best Time to Buy and Sell Stock]() | $O(N)$ | $O(1)$ | Single-pass linear scan with running minimum tracking |
 | LeetCode | Sorting & Intervals | [Maximize Sum Of Array After K Negations]() | $O(N \log N)$ | $O(1)$ | Greedy sorting with sign-inversion saturation and parity reduction |
