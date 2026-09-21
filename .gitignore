@@ -12,4 +12,5 @@ bin/
 *.out
 
 # Not needed files
+dummy.cpp
 Practice_Problems.md
