@@ -83,6 +83,7 @@
 | LeetCode | Stacks, Queues, and Strings | [Simplify Path]() | $O(N)$ | $O(N)$ | Canonical path state machine resolving `.` and `..` tokens using delimiter parsing and a LIFO stack |
 | LeetCode | Stacks, Queues, and Strings | [Daily Temperatures]() | $O(N)$ | $O(N)$ | Amortized $O(1)$ next-greater resolution using a strictly decreasing monotonic index stack |
 | LeetCode | Stacks, Queues, and Strings | [Valid Number]() | $O(N)$ | $O(1)$ | Deterministic Finite Automaton (DFA) state validation enforcing lookback syntax and irreversible transition gates |
+| LeetCode | Stacks, Queues, and Strings | [Fraction Addition and Subtraction]() | $O(N)$ | $O(1)$ | Formatted stream token extraction with running fraction addition and GCD reduction |
 
 ---
 
