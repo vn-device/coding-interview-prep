@@ -67,6 +67,7 @@
 | LeetCode | Sorting & Intervals | [Assign Cookies]() | $O(M \log M + N \log N)$ | $O(1)$ | Dual-array greedy sorting with two-pointer greed-cookie matching |
 | LeetCode | Sorting & Intervals | [Task Scheduler]() | $O(N)$ | $O(1)$ | Greedy maximum-frequency frame scheduling with idle-slot fill invariant |
 | LeetCode | Sorting & Intervals | [Largest Perimeter Triangle]() | $O(N \log N)$ | $O(1)$ | Reverse monotonic sort scan enforcing triangle inequality invariant |
+| LeetCode | Sorting & Intervals | [Non-overlapping Intervals]() | $O(N \log N)$ | $O(1)$ | Greedy finish-time sorting with single scalar horizon tracking |
 | LeetCode | Stacks, Queues, and Strings | [Asteroid Collision]() | $O(N)$ | $O(N)$ | Stack accumulator pattern with directional magnitude collision simulation |
 | LeetCode | Stacks, Queues, and Strings | [Final Value of Variable After Performing Operations]() | $O(N)$ | $O(1)$ | Single-pass string parsing using middle-character invariant (`op[1]`) |
 | LeetCode | Stacks, Queues, and Strings | [Make The String Great]() | $O(N)$ | $O(N)$ | String stack accumulator with ASCII distance check (`abs(diff) == 32`) for case-mismatched pair elimination |
