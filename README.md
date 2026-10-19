@@ -10,6 +10,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | NeetCode | Arrays & Hashing | [Contains Duplicate]() | $O(N)$ | $O(N)$ | Single-pass insertion status verification using reserved std::unordered_set |
 | NeetCode | Arrays & Hashing | [Valid Anagram]() | $O(N)$ | $O(1)$ | Stack-allocated 26-element array with net delta frequency tracking |
+| NeetCode | Arrays & Hashing | [Two Sum]() | $O(N)$ | $O(N)$ | Single-pass complement lookup with pre-reserved std::unordered_map |
 | HackerRank | Bit Manipulation & Hardware | [Sum vs XOR]() | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
 | HackerRank | Bit Manipulation & Hardware | [Lonely Integer]() | $O(N)$ | $O(1)$ | Bitwise XOR reduction fold using nilpotence ($x \oplus x = 0$) and identity ($x \oplus 0 = x$) |
 | HackerRank | C++ Systems Architecture | [Attribute Parser]() | $O(N \cdot L + Q)$ | $O(N \cdot A)$ | Stack-based path scope serialization and $O(1)$ map lookup |
