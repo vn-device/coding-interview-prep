@@ -59,6 +59,8 @@ bool isValid(const std::string& s)
             buffer.pop_back();
         }
     }
+
+    return buffer.empty();
 }
 
 // bool isValid(const std::string& s)
