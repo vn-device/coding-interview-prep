@@ -17,6 +17,7 @@
 | NeetCode | Arrays & Hashing | [Product of Array Except Self]() | $O(N)$ | $O(1)$ | Two-pass in-place prefix/suffix scalar accumulation |
 | NeetCode | Arrays & Hashing | [Valid Sudoku]() | $O(1)$ | $O(1)$ | Direct-address table using fixed 2D boolean matrices (`seenRow[9][10]`, `seenCol[9][10]`, `seenBox[9][10]`) over constant 81 cells; avoids dynamic heap containers and bitwise shifts with 270 bytes on the stack. |
 | NeetCode | Arrays & Hashing | [Longest Consecutive Sequence]() | $O(N)$ | $O(N)$ | Full hash set pre-population with sequence-head (num - 1) lookup ensuring each element is traversed at most twice. |
+| NeetCode | Stack | [Valid Parentheses]() | $O(N)$ | $O(N)$ | Parity pre-check with push-expected closing symbol stack matching over contiguous std::vector<char> buffer. |
 | HackerRank | Bit Manipulation & Hardware | [Sum vs XOR]() | $O(\log_2 n)$ | $O(1)$ | Bitwise carry identity ($n \text{ AND } x = 0$) and `2^unset_bits` shift optimization |
 | HackerRank | Bit Manipulation & Hardware | [Lonely Integer]() | $O(N)$ | $O(1)$ | Bitwise XOR reduction fold using nilpotence ($x \oplus x = 0$) and identity ($x \oplus 0 = x$) |
 | HackerRank | C++ Systems Architecture | [Attribute Parser]() | $O(N \cdot L + Q)$ | $O(N \cdot A)$ | Stack-based path scope serialization and $O(1)$ map lookup |
