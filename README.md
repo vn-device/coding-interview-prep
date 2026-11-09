@@ -18,7 +18,8 @@
 | NeetCode | Arrays & Hashing | [Valid Sudoku]() | $O(1)$ | $O(1)$ | Direct-address table using fixed 2D boolean matrices (`seenRow[9][10]`, `seenCol[9][10]`, `seenBox[9][10]`) over constant 81 cells; avoids dynamic heap containers and bitwise shifts with 270 bytes on the stack. |
 | NeetCode | Arrays & Hashing | [Longest Consecutive Sequence]() | $O(N)$ | $O(N)$ | Full hash set pre-population with sequence-head (num - 1) lookup ensuring each element is traversed at most twice. |
 | NeetCode | Stack | [Valid Parentheses]() | $O(N)$ | $O(N)$ | Parity pre-check with push-expected closing symbol stack matching over contiguous std::vector<char> buffer. |
-| NeetCode | Stack | [Min Stack]() | $$O(1)$ all ops$ | $O(N)$ | Synchronized parallel LIFO buffer tracking running prefix minimum per stack frame depth. |
+| NeetCode | Stack | [Min Stack]() | $O(1)$ all ops | $O(N)$ | Synchronized parallel LIFO buffer tracking running prefix minimum per stack frame depth. |
+| NeetCode | Stack | [Evaluate Reverse Polish Notation]() | $O(N)$ | $O(N)$ | Postfix stream parsing using reserved vector stack with in-place top-of-stack scalar mutation. |
 
 ---
 
