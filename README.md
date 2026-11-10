@@ -31,7 +31,6 @@ coding-interview-prep/
 ├── .github/
 │   └── NOTE_TEMPLATE.md    # Standardised problem note template
 ├── README.md               # This file
-├── extra-help.md           # Supplementary reference notes
 ├── hackerrank/             # HackerRank solutions by domain
 └── leetcode/               # LeetCode solutions by domain
 └── neetcode-roadmap/       # NeetCode solutions by domain
