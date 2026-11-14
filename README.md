@@ -21,6 +21,7 @@
 | NeetCode | Stack | [Min Stack]() | $O(1)$ all ops | $O(N)$ | Synchronized parallel LIFO buffer tracking running prefix minimum per stack frame depth. |
 | NeetCode | Stack | [Evaluate Reverse Polish Notation]() | $O(N)$ | $O(N)$ | Postfix stream parsing using reserved vector stack with in-place top-of-stack scalar mutation. |
 | NeetCode | Stack | [Daily Temperatures]() | $O(N)$ | $O(N)$ | Monotonic decreasing index stack using pre-reserved `std::vector<int>`; resolves next warmer day in amortized $O(1)$ per pop with contiguous cache residency. |
+| NeetCode | Two Pointers | [Valid Palindrome]() | $O(N)$ | $O(1)$ | Converging two-pointer scan using locale-free inline ASCII classification and disjoint lowercase folding; zero heap allocations. |
 
 ---
 
