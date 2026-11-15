@@ -22,6 +22,7 @@
 | NeetCode | Stack | [Evaluate Reverse Polish Notation]() | $O(N)$ | $O(N)$ | Postfix stream parsing using reserved vector stack with in-place top-of-stack scalar mutation. |
 | NeetCode | Stack | [Daily Temperatures]() | $O(N)$ | $O(N)$ | Monotonic decreasing index stack using pre-reserved `std::vector<int>`; resolves next warmer day in amortized $O(1)$ per pop with contiguous cache residency. |
 | NeetCode | Two Pointers | [Valid Palindrome]() | $O(N)$ | $O(1)$ | Converging two-pointer scan using locale-free inline ASCII classification and disjoint lowercase folding; zero heap allocations. |
+| NeetCode | Two Pointers | [Two Integer Sum II]() | $O(N)$ | $O(1)$ | Converging two-pointer scan leveraging sorted monotonicity to eliminate candidate rows/columns in $O(1)$ auxiliary space. |
 
 ---
 
