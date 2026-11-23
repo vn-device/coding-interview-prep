@@ -26,6 +26,7 @@
 | NeetCode | Two Pointers | [3Sum]() | $O(N^2)$ | $O(1)$ | In-place sort with suffix two-pointer scan (`j = i + 1`), positive pivot pruning, and adjacent-element skip loops for $O(1)$ space deduplication. |
 | NeetCode | Two Pointers | [Container W/ Most Water]() | $O(N)$ | $O(1)$ | Converging two-pointer greedy contraction advancing the shorter boundary with sub-threshold height fast-forwarding. |
 | NeetCode | Linked List | [Reverse Linked List]() | $O(N)$ | $O(1)$ | Iterative three-pointer (`prev`, `curr`, `nextTemp`) in-place link reversal; avoids $O(N)$ recursive call-stack overhead. |
+| NeetCode | Linked List | [Merge Two Sorted Linked Lists]() | $O(N + M)$ | $O(1)$ | Stack-allocated sentinel node with in-place pointer splicing and $O(1)$ remaining suffix attachment; zero heap allocations. |
 
 ---
 
