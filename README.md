@@ -21,6 +21,8 @@
 | NeetCode | Stack | [Min Stack]() | $O(1)$ all ops | $O(N)$ | Synchronized parallel LIFO buffer tracking running prefix minimum per stack frame depth. |
 | NeetCode | Stack | [Evaluate Reverse Polish Notation]() | $O(N)$ | $O(N)$ | Postfix stream parsing using reserved vector stack with in-place top-of-stack scalar mutation. |
 | NeetCode | Stack | [Daily Temperatures]() | $O(N)$ | $O(N)$ | Monotonic decreasing index stack using pre-reserved `std::vector<int>`; resolves next warmer day in amortized $O(1)$ per pop with contiguous cache residency. |
+| NeetCode | Stack | [Car Fleet]() | $O(N \log N)$ | $O(N)$ | Contiguous `(position, speed)` pair buffer sorted descending; compresses monotonic stack into scalar `slowestTime` register tracking. |
+| NeetCode | Stack | [Largest Rectangle In Histogram]() | $O(N)$ | $O(N)$ | Single-pass monotonic increasing index stack with virtual zero-height sentinel (`i == len`) resolving left/right smaller boundaries on eviction. |
 | NeetCode | Two Pointers | [Valid Palindrome]() | $O(N)$ | $O(1)$ | Converging two-pointer scan using locale-free inline ASCII classification and disjoint lowercase folding; zero heap allocations. |
 | NeetCode | Two Pointers | [Two Integer Sum II]() | $O(N)$ | $O(1)$ | Converging two-pointer scan leveraging sorted monotonicity to eliminate candidate rows/columns in $O(1)$ auxiliary space. |
 | NeetCode | Two Pointers | [3Sum]() | $O(N^2)$ | $O(1)$ | In-place sort with suffix two-pointer scan (`j = i + 1`), positive pivot pruning, and adjacent-element skip loops for $O(1)$ space deduplication. |
