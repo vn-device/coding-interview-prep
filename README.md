@@ -31,6 +31,7 @@
 | NeetCode | Linked List | [Reverse Linked List]() | $O(N)$ | $O(1)$ | Iterative three-pointer (`prev`, `curr`, `nextTemp`) in-place link reversal; avoids $O(N)$ recursive call-stack overhead. |
 | NeetCode | Linked List | [Merge Two Sorted Linked Lists]() | $O(N + M)$ | $O(1)$ | Stack-allocated sentinel node with in-place pointer splicing and $O(1)$ remaining suffix attachment; zero heap allocations. |
 | NeetCode | Linked List | [Linked List Cycle Detection]() | $O(N)$ | $O(1)$ | Floyd's tortoise-and-hare fast/slow pointer traversal comparing node memory addresses (`slow == fast`) with `fast && fast->next` null guards. |
+| NeetCode | Sliding Window | [Best Time to Buy & Sell Stock]() | $O(N)$ | $O(1)$ | Single-pass dynamic sliding window snapping `left` purchase anchor to new minimums (or scalar `minBuy` tracking); zero heap allocations. |
 
 ---
 
