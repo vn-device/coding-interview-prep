@@ -30,6 +30,7 @@
 | NeetCode | Two Pointers | [Trapping Rain Water]() | $O(N)$ | $O(1)$ | Converging two-pointer scan tracking running `leftMax` and `rightMax` scalars; advances the smaller boundary ceiling in $O(1)$ auxiliary space. |
 | NeetCode | Linked List | [Reverse Linked List]() | $O(N)$ | $O(1)$ | Iterative three-pointer (`prev`, `curr`, `nextTemp`) in-place link reversal; avoids $O(N)$ recursive call-stack overhead. |
 | NeetCode | Linked List | [Merge Two Sorted Linked Lists]() | $O(N + M)$ | $O(1)$ | Stack-allocated sentinel node with in-place pointer splicing and $O(1)$ remaining suffix attachment; zero heap allocations. |
+| NeetCode | Linked List | [Linked List Cycle Detection]() | $O(N)$ | $O(1)$ | Floyd's tortoise-and-hare fast/slow pointer traversal comparing node memory addresses (`slow == fast`) with `fast && fast->next` null guards. |
 
 ---
 
