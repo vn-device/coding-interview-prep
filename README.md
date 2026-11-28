@@ -34,6 +34,7 @@
 | NeetCode | Sliding Window | [Best Time to Buy & Sell Stock]() | $O(N)$ | $O(1)$ | Single-pass dynamic sliding window snapping `left` purchase anchor to new minimums (or scalar `minBuy` tracking); zero heap allocations. |
 | NeetCode | Sliding Window | [Longest Substring W/out Repeating Characters]() | $O(N)$ | $O(1)$ | Single-pass dynamic sliding window with stack-allocated 256-entry `lastSeen` direct-address table; jumps `left` directly past duplicates in $O(1)$. |
 | NeetCode | Binary Search | [Binary Search]() | $O(\log N)$ | $O(1)$ | Iterative closed-interval `[left, right]` search using overflow-safe midpoint `left + ((right - left) / 2)` and direct early return. |
+| NeetCode | Binary Search | [Search a 2D Matrix]() | $O(\log(M \cdot N))$ | $O(1)$ | Single-pass binary search over virtual 1D flattened range `[0, M * N - 1]` using `mid / width` and `mid % width` coordinate mapping. |
 
 ---
 
